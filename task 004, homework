@@ -1,0 +1,10 @@
+list = ['P', 'y', 't', 'h', 'o', 'n']
+
+
+def string_connecter(string_list):
+    string_joiner = ''.join(string_list)
+    result = str(string_joiner)
+    return result
+
+if __name__ == '__main__':
+    print(string_connecter(list))
