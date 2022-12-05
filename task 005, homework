@@ -6,7 +6,7 @@ def list_hunter(my_list):
     for elem in my_list:
         if type(elem) == list:
             return True
-        return False
+    return False
 
 
 if __name__ == '__main__':
