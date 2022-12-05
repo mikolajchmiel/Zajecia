@@ -1,0 +1,15 @@
+
+first_list = [15, 'abcd', 42]
+second_list = [77, [1, 2, 3], {'password': 'Jozef Tkaczuk'}]
+
+def list_hunter(my_list):
+    for elem in my_list:
+        if type(elem) == list:
+            return True
+        return False
+
+
+if __name__ == '__main__':
+
+    print(list_hunter(first_list))
+    print(list_hunter(second_list))
