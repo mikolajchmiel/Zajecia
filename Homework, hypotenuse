@@ -1,0 +1,20 @@
+from math import sqrt
+
+class Right_triangle:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+
+    def c (self):
+        return sqrt(self.a**2 + self.b**2)
+
+if __name__ == '__main__':
+    a = float(input('podaj przyprostokątna a trojkata \n'))
+    b = float(input('podaj przyprostokątna b trojkata \n'))
+
+
+
+    our_triangle = Right_triangle(a, b)
+
+    print(f'przeciwprostokątna trojkata wynosi: {our_triangle.c()}')
